@@ -1,6 +1,7 @@
 # browser-lang
 
 Detect user's most preferred language within the given language list.
+
 Based on https://github.com/wiziple/browser-lang project.
 
 [![Known Vulnerabilities](https://snyk.io/test/github/jacekk/browser-lang/badge.svg)](https://snyk.io/test/github/jacekk/browser-lang)
@@ -18,11 +19,9 @@ Based on https://github.com/wiziple/browser-lang project.
 ## Installation
 
 ```bash
-npm install browser-lang --save
-```
-or
-```bash
-yarn add browser-lang
+npm install @onlytabs/browser-lang --save
+# or
+yarn add @onlytabs/browser-lang
 ```
 
 ## Options
