@@ -17,10 +17,10 @@
   "main": "./dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
-    "test": "jest test",
-    "test:watch": "jest test --watch",
-    "build": "babel src --out-dir dist",
-    "format": "prettier --write src/**/*.{js,jsx}"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "babel ./src --out-dir dist",
+    "format": "prettier --write ./src/**/*.{js,jsx}"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
