@@ -1,6 +1,6 @@
 {
-  "name": "browser-lang",
-  "version": "0.2.0",
+  "name": "@jacekk/browser-lang",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "",
   "repository": "github:jacekk/browser-lang",
