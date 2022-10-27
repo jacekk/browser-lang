@@ -15,6 +15,7 @@
   ],
   "author": "JacekK",
   "main": "./dist/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "clean": "rm -rf dist",
     "test": "jest",
