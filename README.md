@@ -3,6 +3,8 @@
 Detect user's most preferred language within the given language list.
 Based on https://github.com/wiziple/browser-lang project.
 
+[![Known Vulnerabilities](https://snyk.io/test/github/jacekk/browser-lang/badge.svg)](https://snyk.io/test/github/jacekk/browser-lang)
+
 ## Why?
 
  - To determine an `initial display language` or `default language router` on your application with fallback options.
@@ -43,7 +45,7 @@ const myLanguage = browserLang();
 // return the preferred language in browser: e.g. "ko-KR" or "ko".
 
 const myLanguage = browserLang({
-  languages: ['ko', 'de', 'zh', 'zh_TW', 'en'], 
+  languages: ['ko', 'de', 'zh', 'zh_TW', 'en'],
   fallback: 'en',
 });
 
