@@ -1,6 +1,7 @@
 # browser-lang
 
 Detect user's most preferred language within the given language list.
+Based on https://github.com/wiziple/browser-lang project.
 
 ## Why?
 
@@ -59,7 +60,3 @@ const myLanguage = browserLang({
 - IE
 - Edge
 - Opera
-
-## License
-
-MIT &copy; [Daewoong Moon](https://github.com/wiziple)

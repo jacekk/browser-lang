@@ -3,9 +3,9 @@
   "version": "0.2.0",
   "license": "MIT",
   "description": "",
-  "repository": "github:wiziple/browser-lang",
-  "bugs": "https://github.com/wiziple/browser-lang/issues",
-  "homepage": "https://github.com/wiziple/browser-lang",
+  "repository": "github:jacekk/browser-lang",
+  "bugs": "https://github.com/jacekk/browser-lang/issues",
+  "homepage": "https://github.com/jacekk/browser-lang",
   "keywords": [
     "browser language",
     "language detect",
@@ -13,14 +13,14 @@
     "default language",
     "i18n"
   ],
-  "author": "Daewoong Moon <wiziple@gmail.com>",
+  "author": "JacekK",
   "main": "./dist/index.js",
   "scripts": {
     "clean": "rimraf dist",
     "test": "jest test",
     "test:watch": "jest test --watch",
     "build": "babel src --out-dir dist",
-    "format": "prettier --write {src,test}/**/*.{js,jsx}"
+    "format": "prettier --write src/**/*.{js,jsx}"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
