@@ -1,6 +1,9 @@
+.babelrc
+.editorconfig
+.eslintrc
+.github
+.gitignore
+.prettierrc.yaml
+coverage
 src
 test
-coverage
-.babelrc
-.eslintrc
-.gitignore
